@@ -1,6 +1,6 @@
-SOURCES = main otp/hashtable
+SOURCES = main otp/hashtable httpserver/server httpserver/session
 LIBS = 
-SUBDIRS = otp
+SUBDIRS = otp httpserver
 MKSUBDIRS = $(addprefix $(OBJPATH)/, $(SUBDIRS))
 
 SRCPATH = ./src
