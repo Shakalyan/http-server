@@ -1,6 +1,6 @@
-SOURCES = main
+SOURCES = main otp/hashtable
 LIBS = 
-SUBDIRS = 
+SUBDIRS = otp
 MKSUBDIRS = $(addprefix $(OBJPATH)/, $(SUBDIRS))
 
 SRCPATH = ./src
